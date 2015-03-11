@@ -8,6 +8,7 @@ class Logic {
    }
 
    public String execute(String in) {
+      // add a comment here
       return "[" + in + parser.parse(in) + storage.store(in) + "]";
    }
 }
